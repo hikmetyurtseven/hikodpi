@@ -48,6 +48,7 @@ Klasör içerisindeki **`HikoDPI-Baslat.bat`** dosyasına çift tıklayın:
 * Eksik bir bileşen varsa otomatik olarak kurar.
 * Kurulum tamamlandığında veya zaten hazırsa ekranda **`PROGRAM ÇALIŞMAYA HAZIR!`** bildirimini verip uygulamayı açar.
 * Yada Portable versiyonu direk çalıştırın
+
 ### 2. Kurulum Paketi ile Kurulum (.exe)
 Klasördeki **`HikoDPI-Kurulum.exe`** dosyasına çift tıklayarak programı doğrudan Windows'unuza kurabilir ve Başlat Menünüze kısayol ekleyebilirsiniz.
 
@@ -64,6 +65,15 @@ Klasördeki **`HikoDPI-Kurulum.exe`** dosyasına çift tıklayarak programı do�
 
 ---
 
+## ⚖️ Sorumluluk Reddi Beyanı (Disclaimer)
+
+> **DİKKAT:** **HikoDPI**, yalnızca ağ teknolojileri, DPI (Derin Paket İnceleme) mimarileri ve TLS/SNI protokol davranışlarını incelemek amacıyla **eğitim ve araştırma kapsamında** geliştirilmiştir.
+> 
+> * Bu yazılımı kullanan kişiler, bulundukları ülkenin bilişim mevzuatına ve yasal düzenlemelerine uymakla bizzat yükümlüdür.
+> * Yazılımın kullanımından doğabilecek her türlü hukuki, idari ve teknik sorumluluk tamamen **kullanıcıya aittir**.
+> * Geliştiriciler; yazılımın kullanımından veya hatalı yapılandırılmasından kaynaklanan herhangi bir doğrudan veya dolaylı zarardan, bağlantı kesintilerinden ya da üçüncü taraf yaptırımlarından sorumlu tutulamaz.
+> 
+> Ayrıntılı yasal metin için [DISCLAIMER.md](DISCLAIMER.md) dosyasını inceleyebilirsiniz.
 
 ---
 
