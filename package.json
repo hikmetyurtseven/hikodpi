@@ -1,0 +1,80 @@
+{
+  "name": "hikodpi",
+  "productName": "HikoDPI",
+  "version": "0.2.0",
+  "description": "HikoDPI - Gelişmiş Windows DPI ve Sansür Baypas Uygulaması (Built with Vibecoding 🎧)",
+  "main": "electron/main.cjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "proxy": "node engine/proxy.js",
+    "proxy:system": "node engine/proxy.js --system-proxy",
+    "electron": "electron .",
+    "dist": "vite build && electron-builder",
+    "dist:dir": "vite build && electron-builder --dir"
+  },
+  "keywords": [
+    "vibecoding",
+    "dpi-bypass",
+    "goodbyedpi",
+    "zapret",
+    "discord-fix",
+    "roblox-bypass",
+    "superonline-bypass",
+    "doh",
+    "sni-splitting"
+  ],
+  "author": "HikoDPI Team (Built with Vibecoding)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "build": {
+    "appId": "com.hikodpi.app",
+    "productName": "HikoDPI",
+    "copyright": "Copyright © 2026 HikoDPI Team (Built with Vibecoding)",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "engine/**/*",
+      "package.json"
+    ],
+    "win": {
+      "requestedExecutionLevel": "requireAdministrator",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.12.4",
+    "framer-motion": "^14.6.0",
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@tauri-apps/cli": "^1.6.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "electron": "45.0.0",
+    "electron-builder": "26.18.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
+  }
+}

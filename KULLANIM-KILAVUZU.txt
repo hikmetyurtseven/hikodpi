@@ -1,0 +1,37 @@
+======================================================================
+  🛡️ HikoDPI Pro v0.2.0 - Kullanım Kılavuzu
+  🎧 Built with Vibecoding
+======================================================================
+
+Bu klasör, HikoDPI'nin hiçbir özel bilgi, token veya kişisel veri 
+içermeyen, hem doğrudan çalıştırılabilir hem de GitHub'a tek komutla
+yüklenebilir son sürümüdür.
+
+----------------------------------------------------------------------
+1. PROGRAMI BAŞLATMA
+----------------------------------------------------------------------
+
+Seçenek A (Akıllı Başlatıcı):
+  -> "HikoDPI-Baslat.bat" dosyasına çift tıklayın.
+  -> Gerekli bağımlılıkları otomatik kontrol eder.
+  -> "Program çalışmaya hazır!" bildirimini verip uygulamayı açar.
+
+Seçenek B (Doğrudan Portatif Sürüm):
+  -> "HikoDPI-Portatif" klasörünü açıp içindeki "HikoDPI.exe"ye tıklayın.
+
+Seçenek C (Windows Kurulumu):
+  -> "HikoDPI-Kurulum.exe" dosyasına tıklayarak Windows'a kurabilirsiniz.
+
+----------------------------------------------------------------------
+2. GITHUB'A YÜKLEME (Hiçbir Düzenleme Yapmanıza Gerek Yoktur)
+----------------------------------------------------------------------
+
+Klasör içinde terminali açıp yalnızca şu komutları girin:
+
+  git remote add origin https://github.com/KULLANICI_ADINIZ/hikodpi.git
+  git branch -M main
+  git push -u origin main
+
+======================================================================
+HikoDPI Team • Vibecoding 🎧
+======================================================================
