@@ -64,15 +64,6 @@ Klasördeki **`HikoDPI-Kurulum.exe`** dosyasına çift tıklayarak programı do�
 
 ---
 
-## 🐙 GitHub'a Yükleme
-
-Bu proje GitHub'a yüklenmeye hazır şekilde yapılandırılmıştır. Terminalde şu komutları çalıştırmanız yeterlidir:
-
-```bash
-git remote add origin https://github.com/KULLANICI_ADINIZ/hikodpi.git
-git branch -M main
-git push -u origin main
-```
 
 ---
 
