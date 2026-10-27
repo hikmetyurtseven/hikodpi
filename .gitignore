@@ -9,6 +9,7 @@ release/
 bin/
 HikoDPI-Portatif/
 *.exe
+*.zip
 
 # Logs
 *.log
