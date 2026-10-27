@@ -47,7 +47,7 @@ Klasör içerisindeki **`HikoDPI-Baslat.bat`** dosyasına çift tıklayın:
 * Sistemde gerekli yazılımları (Node.js vb.) ve bağımlılıkları otomatik kontrol eder.
 * Eksik bir bileşen varsa otomatik olarak kurar.
 * Kurulum tamamlandığında veya zaten hazırsa ekranda **`PROGRAM ÇALIŞMAYA HAZIR!`** bildirimini verip uygulamayı açar.
-
+* Yada Portable versiyonu direk çalıştırın
 ### 2. Kurulum Paketi ile Kurulum (.exe)
 Klasördeki **`HikoDPI-Kurulum.exe`** dosyasına çift tıklayarak programı doğrudan Windows'unuza kurabilir ve Başlat Menünüze kısayol ekleyebilirsiniz.
 
