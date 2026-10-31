@@ -1,44 +1,40 @@
 ======================================================================
-  🛡️ HikoDPI Suite v0.3.0 - Kullanım Kılavuzu (Windows & Android Mobile)
-  🎧 Built with Vibecoding
+  HikoDPI Suite v0.3.0 - Kullanim Kilavuzu (Windows & Android)
 ======================================================================
 
-Bu proje, HikoDPI'nin hem Windows masaüstü hem de Android mobil
-cihazlar için optimize edilmiş, hiçbir gizli token veya kişisel veri
-içermeyen, doğrudan kullanılabilir ve GitHub'a hazır sürümüdür.
+Bu proje, HikoDPI'nin hem Windows masaustu hem de Android mobil
+cihazlar icin optimize edilmis, hicbir gizli token veya kisisel veri
+icermeyen, dogrudan kullanilabilir surumudur.
 
 ----------------------------------------------------------------------
-1. ANDROID MOBİL KULLANIMI (HikoDPI Mobile)
+1. WINDOWS MASAUSTU CALISTIRMA
 ----------------------------------------------------------------------
 
-  -> "HikoDPI-Mobile.apk" dosyasını telefonunuza aktarın ve kurun.
-  -> Uygulama açılışında gelen "Bildirim İzni"ne İzin Verin.
-  -> Ana ekrandaki güç butonuna basıp Android VPN uyarısını onaylayın.
-  -> Bildirim çubuğunda canlı saniye sayacı ve kontrol butonları belirecektir.
-  -> Yerleşik 2-baytlık SNI parçalama motoru sayesinde "Gizlilik Hatası"
-     almadan Discord ve Roblox'a doğrudan erişebilirsiniz.
+Programi baslatmak icin:
+  -> "HikoDPI-Portatif" klasoru icindeki "HikoDPI.exe" uygulamasina
+     cift tiklayarak dogrudan calistirin.
+  
+  (Istege bagli: Kurulum yapmak isterseniz "HikoDPI-Kurulum.exe"
+   dosyasi ile Windows'a kurabilirsiniz.)
 
 ----------------------------------------------------------------------
-2. WINDOWS MASAÜSTÜ KULLANIMI (HikoDPI Windows Pro)
+2. ANDROID MOBIL CALISTIRMA (HikoDPI Mobile)
 ----------------------------------------------------------------------
 
-Seçenek A (Akıllı Başlatıcı):
-  -> "HikoDPI-Baslat.bat" dosyasına çift tıklayın.
-  -> Gerekli bağımlılıkları otomatik kontrol eder.
-  -> "PROGRAM ÇALIŞMAYA HAZIR!" bildirimini verip uygulamayı açar.
-
-Seçenek B (Doğrudan Portatif Sürüm):
-  -> "HikoDPI-Portatif" klasörünü açıp içindeki "HikoDPI.exe"ye tıklayın.
-
-Seçenek C (Windows Kurulumu):
-  -> "HikoDPI-Kurulum.exe" dosyasına tıklayarak Windows'a kurabilirsiniz.
+  -> "HikoDPI-Mobile.apk" dosyasini telefonunuza aktarin ve kurun.
+  -> Uygulama acilisinda gelen "Bildirim Izni"ne izin verin.
+  -> Ana ekrandaki guc butonuna basip Android VPN baglanti istegini onaylayin.
+  -> Bildirim cubugunda anlik sure sayaci ve kontrol tuslari yer alir.
+  -> Gelistirilmis 2-baytlik SNI parcalama motoru sayesinde Discord ve
+     Roblox'ta gizlilik hatasi yasamadan dogrudan baglanabilirsiniz.
 
 ----------------------------------------------------------------------
-3. GITHUB DEPOSU
+3. KAYNAK KODLAR VE GITHUB DEPOSU
 ----------------------------------------------------------------------
 
-  -> https://github.com/hikmetyurtseven/hikodpi.git
+  -> Android kaynak kodlari "android-sourcefiles" klasorundedir.
+  -> GitHub: https://github.com/hikmetyurtseven/hikodpi.git
 
 ======================================================================
-HikoDPI Team • Vibecoding 🎧
+HikoDPI Gelistirme Ekibi
 ======================================================================
