@@ -1,4 +1,4 @@
-# HikoDPI Suite (Windows & Android Mobile)
+# HikoDPI (Windows & Android Mobile)
 
 <p align="center">
   <strong>Gelişmiş Windows & Android DPI (Deep Packet Inspection) ve Sansür Baypas Paketi</strong><br>
