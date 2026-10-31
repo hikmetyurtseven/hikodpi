@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Gelişmiş Windows & Android DPI (Deep Packet Inspection) ve Sansür Baypas Paketi</strong><br>
-  Superonline, Türk Telekom, Turkcell, Vodafone, Discord, Roblox ve engelli servisler için çift platform çözümü.
+  Superonline, Türk Telekom, Turkcell, Vodafone için Discord, Roblox ve engelli servislere erişme çözümü.
 </p>
 
 <p align="center">
