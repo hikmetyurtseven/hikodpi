@@ -1,56 +1,99 @@
-# 🛡️ HikoDPI Pro
+# 🛡️ HikoDPI Suite (Windows & Android Mobile)
 
 <p align="center">
-  <strong>Gelişmiş Windows DPI (Deep Packet Inspection) ve Sansür Baypas Aracı</strong><br>
-  Superonline, Türk Telekom, Discord, Roblox ve engelli siteler için optimize edilmiştir.
+  <strong>Gelişmiş Windows & Android DPI (Deep Packet Inspection) ve Sansür Baypas Paketi</strong><br>
+  Superonline, Türk Telekom, Turkcell, Vodafone, Discord, Roblox ve tüm engelli platformlar için tam donanımlı çift platform çözümü.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Made%20With-Vibecoding%20🎧-purple?style=for-the-badge" alt="Vibecoding">
-  <img src="https://img.shields.io/badge/Versiyon-0.2.0-cyan?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/Platform-Windows%20(UAC%20Admin)-blue?style=for-the-badge&logo=windows" alt="Platform">
-  <img src="https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react" alt="React">
-  <img src="https://img.shields.io/badge/Tailwind-v4-38bdf8?style=for-the-badge&logo=tailwindcss" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Versiyon-0.3.0%20Multi--Platform-cyan?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Android%20APK-Hazır%20(3.3%20MB)-success?style=for-the-badge&logo=android" alt="Android APK">
+  <img src="https://img.shields.io/badge/Windows-UAC%20Admin-blue?style=for-the-badge&logo=windows" alt="Windows">
   <img src="https://img.shields.io/badge/Lisans-MIT-emerald?style=for-the-badge" alt="License">
 </p>
 
 ---
 
+## 🚀 Hızlı İndirme & Başlatma
+
+| Platform | Kurulum / Çalıştırma Dosyası | Boyut | Açıklama |
+| :--- | :--- | :--- | :--- |
+| 📱 **Android Mobil** | [**HikoDPI-Mobile.apk**](HikoDPI-Mobile.apk) | **~3.3 MB** | İmzalı, Play Protect uyumlu, doğrudan telefona yükleyin |
+| 💻 **Windows Masaüstü** | [**HikoDPI-Baslat.bat**](HikoDPI-Baslat.bat) | Script | Otomatik bağımlılık yükleyici ve başlatıcı |
+| 💻 **Windows Kurulum** | `HikoDPI-Kurulum.exe` | 125 MB | Tam donanımlı Windows masaüstü kurulum paketi |
+
+---
+
 ## 🎧 Made with Vibecoding
 
-> Bu proje baştan sona **Vibecoding** felsefesiyle; yapay zeka destekli sezgisel pair-programming, hızlı prototipleme ve modern tam yığın (full-stack) masaüstü mimari standartlarıyla geliştirilmiştir.
+> Bu proje baştan sona **Vibecoding** felsefesiyle; yapay zeka destekli sezgisel pair-programming, hızlı prototipleme, sıfır hata toleransı ve modern tam yığın (full-stack) mimari standartlarıyla geliştirilmiştir.
 
 ---
 
 ## 📖 Genel Bakış
 
-**HikoDPI**, Türkiye'deki internet servis sağlayıcılarının (Superonline, Türk Telekom, Turkcell, Vodafone) uyguladığı derin paket inceleme (DPI) ve DNS zehirlemesi kısıtlamalarını aşmak için geliştirilmiş modern, tek parça bir masaüstü baypas aracıdır.
+**HikoDPI Suite**, Türkiye'deki internet servis sağlayıcılarının (Superonline, Türk Telekom, Turkcell, Vodafone) uyguladığı derin paket inceleme (DPI), DNS zehirlemesi ve SNI kısıtlamalarını hem **Windows masaüstü** hem de **Android mobil** cihazlarda aşmak için geliştirilmiş tek parça, modern bir baypas çözümüdür.
 
-Karmaşık konsol parametreleri veya hantal araçlar yerine; şık bir grafik arayüz ve arkasında çalışan yerel DoH & SNI parçalama motoru tek bir yapıda birleştirilmiştir.
-
-### ⚡ Öne Çıkan Özellikler
-
-* **🚀 2-Baytlık Agresif SNI Parçalama (SNI Splitting):** TLS ClientHello paketini ilk 2 baytından bölerek DPI donanımlarının (Huawei, Sandvine vb.) hedef domaini tespit etmesini engeller.
-* **🎙️ Discord Voice & Gateway Çözümü:** Discord mesajlaşma ve ses odalarında yaşanan *"RTC Bağlanıyor"* ve ses kesintisi sorunlarını UDP 50000-65535 maskelemesi ile giderir.
-* **🎮 Roblox & Oyun Desteği:** Roblox web sitesi, oyun içi harita/CDN varlıkları ve sunucu bağlantılarını açar.
-* **🔒 Cloudflare DNS over HTTPS (DoH):** ISP seviyesindeki DNS zehirlemelerini aşarak alan adlarını doğrudan `1.1.1.1` üzerinden şifreli çözer (BTK sahte IP tuzağını atlatır).
-* **⏱️ Canlı Oturum & Paket Telemetrisi:** Aktarılan paketler, manipüle edilen SNI blokları ve hassas oturum süresi (uptime) sayacı.
-* **🩺 Hizmet Tanı Aracı (Diagnostics):** Discord, Roblox, Cloudflare DoH ve YouTube erişilebilirliğini anlık test eder.
-* **🛡️ Otomatik Yönetici İzni:** Windows ağ adaptörlerini ve sistem proxy ayarlarını kesintisiz yönetebilmek için açılışta otomatik UAC yönetici izni ister.
+Karmaşık konsol parametreleri veya hantal araçlar yerine; şık bir siberpunk arayüz, arkasında çalışan yerel DoH & SNI parçalama motoru ve platforma özel optimize edilmiş ağ servisleri sunar.
 
 ---
 
-## 🛠️ Hızlı Başlangıç
+## 📱 HikoDPI Mobile (Android Sürümü) Özellikleri
 
-### 1. Tek Tıkla Başlatma (Otomatik Bağımlılık Yükleyici)
-Klasör içerisindeki **`HikoDPI-Baslat.bat`** dosyasına çift tıklayın:
-* Sistemde gerekli yazılımları (Node.js vb.) ve bağımlılıkları otomatik kontrol eder.
-* Eksik bir bileşen varsa otomatik olarak kurar.
-* Kurulum tamamlandığında veya zaten hazırsa ekranda **`PROGRAM ÇALIŞMAYA HAZIR!`** bildirimini verip uygulamayı açar.
-* Yada Portable versiyonu direk çalıştırın
+HikoDPI Mobile, Android 10 - 15 sürümleriyle tam uyumlu yerel bir **VpnService & SNI Parçalama Proxy Motoru** ile donatılmıştır:
 
-### 2. Kurulum Paketi ile Kurulum (.exe)
-Klasördeki **`HikoDPI-Kurulum.exe`** dosyasına çift tıklayarak programı doğrudan Windows'unuza kurabilir ve Başlat Menünüze kısayol ekleyebilirsiniz.
+### 🛑 1. "Gizlilik Hatası / SSL Sertifika Hatası" (NET::ERR_CERT_COMMON_NAME_INVALID) Kökten Çözümü
+* **Sorun:** Türkiye'deki İSS'ler, engelli sitelere girerken sadece DNS zehirlemesi yapmaz. Telefona Özel DNS (`one.one.one.one`) girseniz bile, HTTPS bağlantısındaki TLS `ClientHello` paketinde geçen `discord.com` veya `roblox.com` SNI bilgisini DPI kutularıyla (Sandvine/Huawei) tespit edip araya sahte bir BTK engelleme sayfası yönlendirir. Tarayıcı sahte sertifika gördüğünde **"Gizlilik Hatası"** verir.
+* **HikoDPI Çözümü:** Yerleşik `HikoDpiProxyServer` motoru, TLS `ClientHello` paketini **2. baytından parçalayarak (segment splitting)** 2 ayrı TCP segmenti halinde gönderir. İSS DPI filtresi bölünmüş SNI başlığını tanıyamaz ve paketi doğrudan sunucuya iletir. Böylece **Gizlilik Hatası tamamen ortadan kalkar!**
+
+### 🔔 2. Canlı Donanımsal Kronometre ve Bildirim Çubuğu Kontrolleri
+* Android 13+ (API 33+) bildirim izinleriyle tam entegre.
+* Bildirim çubuğunda canlı saniye sayacı (`setUsesChronometer(true)`) ile aktif kalma süresini anlık gösterir.
+* Uygulamaya girmeden doğrudan bildirim üzerinden tek dokunuşla kontrol butonları:
+  * 🔴 **DPI Kapat:** Motoru ve VPN servisini anında durdurur.
+  * 🔄 **Yenile:** Bağlantıyı ve DoH soketlerini sıfırlayıp tazeler.
+  * 🟢 **Aç:** HikoDPI arayüzüne tek dokunuşla döner.
+
+### 🔒 3. Dahili Cloudflare DoH (DNS over HTTPS)
+* DNS sorguları İSS'nin 53 numaralı portundan geçmez; doğrudan `https://1.1.1.1/dns-query` üzerinden ikili DNS formatında çözülür.
+
+### 🛡️ 4. Google Play Protect ve İmza Doğrulaması
+* Uygulama, özel 2048-bit RSA + SHA-384 üretim anahtarı (`hikodpi-release.keystore`) ile **V1 (JAR) ve V2 (Full APK Signature)** standartlarında imzalanmıştır.
+* `debuggable: false` olarak derlenmiş, optimize edilmiş ve küçültülmüştür (~3.3 MB).
+
+---
+
+## 💻 HikoDPI Windows (Masaüstü Sürümü) Özellikleri
+
+* **🚀 2-Baytlık Agresif SNI Parçalama:** WinDivert çekirdek sürücüsü ile paketleri ağ kartı seviyesinde yakalar ve böler.
+* **🎙️ Discord Voice & Gateway Çözümü:** Discord ses odalarında yaşanan *"RTC Bağlanıyor"* ve ses kesintisi sorunlarını UDP 50000-65535 maskelemesi ile giderir.
+* **🎮 Roblox & Oyun Desteği:** Roblox web sitesi, oyun içi harita/CDN varlıkları ve sunucu bağlantılarını açar.
+* **⏱️ Canlı Oturum & Paket Telemetrisi:** Aktarılan paketler, manipüle edilen SNI blokları ve hassas oturum süresi sayacı.
+* **🩺 Hizmet Tanı Aracı (Diagnostics):** Discord, Roblox, Cloudflare DoH ve YouTube erişilebilirliğini anlık test eder.
+* **🛡️ Otomatik Yönetici İzni:** Windows ağ adaptörlerini kesintisiz yönetebilmek için açılışta otomatik UAC yönetici izni ister.
+
+---
+
+## 🛠️ Kurulum ve Kullanım Kılavuzu
+
+### 📱 Android Kurulumu
+
+1. [**HikoDPI-Mobile.apk**](HikoDPI-Mobile.apk) dosyasını telefonunuza indirin.
+2. İndirilen APK dosyasına dokunun. (Telefonunuz "Bilinmeyen kaynaklardan yükleme" izni isterse izin verin; Play Protect uyarısı verirse *"Yine de Yükle"* seçeneğine dokunun).
+3. Uygulamayı ilk kez açtığınızda gelen **"Bildirim Gönderme İzni"** penceresinde **"İzin Ver"** deyin.
+4. Ana ekrandaki neon güç butonuna basın; Android'in standart **"Bağlantı İsteği (VPN Anahtarı)"** bildirimine **"Tamam"** deyin.
+5. Bildirim çubuğunda yeşil kalkan simgesi ve canlı kronometre belirecektir. Artık Discord, Roblox ve tüm engelli sitelere kısıtlamasız girebilirsiniz!
+
+---
+
+### 💻 Windows Kurulumu
+
+1. Proje ana dizinindeki **`HikoDPI-Baslat.bat`** dosyasına çift tıklayın:
+   * Node.js ve gerekli bağımlılıkları otomatik kontrol eder ve eksikse yükler.
+   * Yükleme tamamlandığında **`PROGRAM ÇALIŞMAYA HAZIR!`** mesajını vererek uygulamayı açar.
+2. Veya doğrudan `HikoDPI-Kurulum.exe` kurulum sihirbazını çalıştırın.
+3. Açılan arayüzde dilediğiniz profili seçip tek tıkla DPI korumasını başlatın.
 
 ---
 
@@ -65,9 +108,57 @@ Klasördeki **`HikoDPI-Kurulum.exe`** dosyasına çift tıklayarak programı do�
 
 ---
 
+## 📂 Proje Dizin Yapısı
+
+```
+HikoDPI/
+├── HikoDPI-Mobile.apk           # Doğrudan kuruluma hazır Android Release APK (~3.3 MB)
+├── HikoDPI-Baslat.bat          # Windows otomatik bağımlılık yükleyici ve başlatıcı
+├── HikoDPI-Kurulum.exe          # Windows masaüstü kurulum paketi
+├── DISCLAIMER.md               # Yasal sorumluluk reddi beyanı
+├── README.md                   # Proje dokümantasyonu
+├── engine/                     # Windows WinDivert DPI motoru
+├── electron/                   # Windows masaüstü Electron kabuğu
+├── src/                        # Windows React 19 UI kaynak kodları
+└── mobile/                     # HikoDPI Mobile kaynak kodları
+    ├── HikoDPI-Mobile.apk      # İmzalı mobil paket
+    ├── capacitor.config.ts     # Capacitor mobil yapılandırması
+    ├── src/                    # Mobil React 19 + Tailwind UI
+    └── android/                # Android Native Java VpnService & Proxy Motoru
+        └── app/src/main/java/com/hikodpi/mobile/
+            ├── HikoDpiProxyServer.java   # 2-baytlık TLS SNI parçalama proxy'si
+            ├── HikoDpiVpnService.java    # Android TUN VpnService ve bildirim motoru
+            ├── HikoDpiPlugin.java        # Capacitor - Native Java köprüsü
+            └── MainActivity.java         # Android yaşam döngüsü ve bildirim izni
+```
+
+---
+
+## 🔧 Kaynak Koddan Derleme (Geliştiriciler İçin)
+
+### Android Sürümünü Derleme:
+```powershell
+cd mobile
+pnpm install
+pnpm build
+npx cap sync android
+cd android
+./gradlew assembleRelease
+# Çıktı: android/app/build/outputs/apk/release/app-release.apk
+```
+
+### Windows Sürümünü Derleme:
+```powershell
+pnpm install
+pnpm dev       # Geliştirici modu
+pnpm build     # Üretim modu derlemesi
+```
+
+---
+
 ## ⚖️ Sorumluluk Reddi Beyanı (Disclaimer)
 
-> **DİKKAT:** **HikoDPI**, yalnızca ağ teknolojileri, DPI (Derin Paket İnceleme) mimarileri ve TLS/SNI protokol davranışlarını incelemek amacıyla **eğitim ve araştırma kapsamında** geliştirilmiştir.
+> **DİKKAT:** **HikoDPI Suite (Windows & Android Mobile)**, yalnızca ağ teknolojileri, DPI (Derin Paket İnceleme) mimarileri ve TLS/SNI protokol davranışlarını incelemek amacıyla **eğitim ve araştırma kapsamında** geliştirilmiştir.
 > 
 > * Bu yazılımı kullanan kişiler, bulundukları ülkenin bilişim mevzuatına ve yasal düzenlemelerine uymakla bizzat yükümlüdür.
 > * Yazılımın kullanımından doğabilecek her türlü hukuki, idari ve teknik sorumluluk tamamen **kullanıcıya aittir**.
@@ -79,4 +170,4 @@ Klasördeki **`HikoDPI-Kurulum.exe`** dosyasına çift tıklayarak programı do�
 
 ## 📄 Lisans
 
-Bu proje [MIT Lisansı](LICENSE) kapsamında lisanslanmıştır. Özgürce kullanılabilir, geliştirilebilir ve dağıtılabilir.
+Bu proje [MIT Lisansı](LICENSE) kapsamında lisanslanmıştır. Özgürce incelenebilir, geliştirilebilir ve dağıtılabilir.

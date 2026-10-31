@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 .pnpm-store/
+mobile/node_modules/
 
 # Production & Packaging Builds
 dist/
@@ -10,6 +11,18 @@ bin/
 HikoDPI-Portatif/
 *.exe
 *.zip
+mobile/dist/
+
+# Android Native
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/local.properties
+mobile/android/.idea/
+
+# Explicitly track APK files
+!HikoDPI-Mobile.apk
+!mobile/HikoDPI-Mobile.apk
 
 # Logs
 *.log

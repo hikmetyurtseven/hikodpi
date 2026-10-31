@@ -1,13 +1,14 @@
 # ⚖️ Sorumluluk Reddi Beyanı / Disclaimer
 
-**Son Güncelleme / Last Updated:** Ekim 2026
+**Son Güncelleme / Last Updated:** Ekim 2026  
+**Kapsam / Scope:** HikoDPI Windows Desktop & HikoDPI Mobile (Android)
 
 ---
 
 ## 🇹🇷 Türkçe (Sorumluluk Reddi Beyanı)
 
 ### 1. Eğitim ve Araştırma Amacı
-**HikoDPI**, yalnızca ağ teknolojileri, Derin Paket İnceleme (DPI - Deep Packet Inspection) mimarileri, TLS/SNI protokol davranışları ve internet gizliliği alanlarında **eğitim, test ve akademik araştırma amacıyla** geliştirilmiştir. Bu projenin amacı yasalara aykırı eylemleri teşvik etmek veya yasa dışı faaliyetlere zemin hazırlamak değildir.
+**HikoDPI Suite (Windows ve Android Mobile)**, yalnızca ağ teknolojileri, Derin Paket İnceleme (DPI - Deep Packet Inspection) mimarileri, TLS/SNI protokol davranışları ve internet gizliliği alanlarında **eğitim, test ve akademik araştırma amacıyla** geliştirilmiştir. Bu projenin amacı yasalara aykırı eylemleri teşvik etmek veya yasa dışı faaliyetlere zemin hazırlamak değildir.
 
 ### 2. Kullanıcı Sorumluluğu ve Yerel Mevzuat
 * Bu yazılımı indiren, kuran veya çalıştıran her kullanıcı; yazılımı kullanırken bulunduğu ülkenin yürürlükteki kanunlarına, yönetmeliklerine ve bilişim mevzuatına (Türkiye Cumhuriyeti için 5651 Sayılı Kanun, Türk Ceza Kanunu ve ilgili BTK düzenlemeleri dahil ancak bunlarla sınırlı olmamak üzere) uymakla bizzat yükümlüdür.
@@ -19,7 +20,8 @@ Yazılım, MIT Lisansı koşulları çerçevesinde **"olduğu gibi" (AS IS)** ve
 ### 4. Sorumluluk Sınırı ve Zararlardan Muafiyet
 Proje geliştiricileri, katkıda bulunanlar veya ilişkili taraflar; yazılımın kullanımından, hatalı kullanımından veya kullanılamamasından kaynaklanan:
 * Doğrudan, dolaylı, arızi veya cezai zararlardan,
-* Veri kaybı, sistem çökmeleri veya ağ bağlantı kesintilerinden,
+* Veri kaybı, sistem çökmeleri, cihaz kilitlenmeleri veya ağ bağlantı kesintilerinden,
+* Mobil cihazlarda VPN servisi yapılandırmalarından veya mobil veri / Wi-Fi bağlantı sorunlarından,
 * Üçüncü taraf servis sağlayıcıları (ISP, Discord, Roblox vb.) tarafından uygulanabilecek hesap askıya alma, erişim kısıtlama veya engellemelerden,
 kesinlikle **sorumlu tutulamaz**.
 
@@ -31,14 +33,14 @@ Yazılım içerisinde adı geçen veya test edilen tüm üçüncü taraf ticari 
 ## 🇬🇧 English (Legal Disclaimer)
 
 ### 1. Educational and Research Purpose Only
-**HikoDPI** is developed strictly for **educational, experimental, and research purposes** to demonstrate network protocol behavior, Deep Packet Inspection (DPI) mechanisms, and TLS ClientHello SNI manipulation. It is not intended to promote or facilitate illegal activities.
+**HikoDPI Suite (Windows and Android Mobile)** is developed strictly for **educational, experimental, and research purposes** to demonstrate network protocol behavior, Deep Packet Inspection (DPI) mechanisms, and TLS ClientHello SNI manipulation. It is not intended to promote or facilitate illegal activities.
 
 ### 2. User Responsibility
 * Any individual or entity downloading, running, or distributing this software is solely responsible for compliance with applicable local, state, and international laws and regulations.
-* The developers shall not be held liable for any misuse, abuse, or unauthorized deployment of this software.
+* The developers shall not be held liable for any misuse, abuse, or unauthorized deployment of this software on Windows or Android platforms.
 
 ### 3. No Warranty ("AS IS")
 This software is provided under the terms of the MIT License "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
 
 ### 4. Limitation of Liability
-In no event shall the authors, maintainers, or contributors be liable for any claim, damages, data loss, network disruption, service suspension, or other liability arising from or in connection with the software or the use thereof.
+In no event shall the authors, maintainers, or contributors be liable for any claim, damages, data loss, network disruption, mobile OS configuration anomalies, service suspension, or other liability arising from or in connection with the software or the use thereof.

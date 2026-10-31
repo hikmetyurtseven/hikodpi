@@ -1,20 +1,31 @@
 ======================================================================
-  🛡️ HikoDPI Pro v0.2.0 - Kullanım Kılavuzu
+  🛡️ HikoDPI Suite v0.3.0 - Kullanım Kılavuzu (Windows & Android Mobile)
   🎧 Built with Vibecoding
 ======================================================================
 
-Bu klasör, HikoDPI'nin hiçbir özel bilgi, token veya kişisel veri 
-içermeyen, hem doğrudan çalıştırılabilir hem de GitHub'a tek komutla
-yüklenebilir son sürümüdür.
+Bu proje, HikoDPI'nin hem Windows masaüstü hem de Android mobil
+cihazlar için optimize edilmiş, hiçbir gizli token veya kişisel veri
+içermeyen, doğrudan kullanılabilir ve GitHub'a hazır sürümüdür.
 
 ----------------------------------------------------------------------
-1. PROGRAMI BAŞLATMA
+1. ANDROID MOBİL KULLANIMI (HikoDPI Mobile)
+----------------------------------------------------------------------
+
+  -> "HikoDPI-Mobile.apk" dosyasını telefonunuza aktarın ve kurun.
+  -> Uygulama açılışında gelen "Bildirim İzni"ne İzin Verin.
+  -> Ana ekrandaki güç butonuna basıp Android VPN uyarısını onaylayın.
+  -> Bildirim çubuğunda canlı saniye sayacı ve kontrol butonları belirecektir.
+  -> Yerleşik 2-baytlık SNI parçalama motoru sayesinde "Gizlilik Hatası"
+     almadan Discord ve Roblox'a doğrudan erişebilirsiniz.
+
+----------------------------------------------------------------------
+2. WINDOWS MASAÜSTÜ KULLANIMI (HikoDPI Windows Pro)
 ----------------------------------------------------------------------
 
 Seçenek A (Akıllı Başlatıcı):
   -> "HikoDPI-Baslat.bat" dosyasına çift tıklayın.
   -> Gerekli bağımlılıkları otomatik kontrol eder.
-  -> "Program çalışmaya hazır!" bildirimini verip uygulamayı açar.
+  -> "PROGRAM ÇALIŞMAYA HAZIR!" bildirimini verip uygulamayı açar.
 
 Seçenek B (Doğrudan Portatif Sürüm):
   -> "HikoDPI-Portatif" klasörünü açıp içindeki "HikoDPI.exe"ye tıklayın.
@@ -23,14 +34,10 @@ Seçenek C (Windows Kurulumu):
   -> "HikoDPI-Kurulum.exe" dosyasına tıklayarak Windows'a kurabilirsiniz.
 
 ----------------------------------------------------------------------
-2. GITHUB'A YÜKLEME (Hiçbir Düzenleme Yapmanıza Gerek Yoktur)
+3. GITHUB DEPOSU
 ----------------------------------------------------------------------
 
-Klasör içinde terminali açıp yalnızca şu komutları girin:
-
-  git remote add origin https://github.com/KULLANICI_ADINIZ/hikodpi.git
-  git branch -M main
-  git push -u origin main
+  -> https://github.com/hikmetyurtseven/hikodpi.git
 
 ======================================================================
 HikoDPI Team • Vibecoding 🎧
