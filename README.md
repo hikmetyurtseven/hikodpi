@@ -83,7 +83,7 @@ Windows sürümü, çekirdek seviyesinde çalışan güvenli ağ sürücüsü (W
 
 ### Android Mobil Sürümü (HikoDPI Mobile)
 
-Android 10 - 15 sürümleriyle tam uyumlu yerel `VpnService` ve `ProxyServer` mimarisiyle inşa edilmiştir.
+Android 10 - 17 sürümleriyle tam uyumlu yerel `VpnService` ve `ProxyServer` mimarisiyle inşa edilmiştir.
 
 #### Kurulum ve Çalıştırma:
 1. [**HikoDPI-Mobile.apk**](HikoDPI-Mobile.apk) dosyasını telefonunuza indirin ve dokunarak yükleyin. (Play Protect uyarısı çıkarsa "Yine de Yükle"yi seçin).
