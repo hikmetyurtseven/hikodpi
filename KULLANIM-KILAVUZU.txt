@@ -1,5 +1,5 @@
 ======================================================================
-  HikoDPI Suite v0.3.0 - Kullanim Kilavuzu (Windows & Android)
+  HikoDPI v0.3.0 - Kullanim Kilavuzu (Windows & Android)
 ======================================================================
 
 Bu proje, HikoDPI'nin hem Windows masaustu hem de Android mobil
